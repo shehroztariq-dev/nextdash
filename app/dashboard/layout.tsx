@@ -8,7 +8,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <SideNav />
       </div>
       <div
-        className={`${inter.className}flex-grow p-6 md:overflow-y-auto md:p-12`}>
+        className={`${inter.className}flex-grow p-6 md:overflow-y-auto md:p-12 w-[100%]`}>
         {children}
       </div>
     </div>
